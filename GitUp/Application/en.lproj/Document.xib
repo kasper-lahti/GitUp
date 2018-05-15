@@ -307,9 +307,9 @@ Adjust settings in Show menu</string>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </progressIndicator>
                 <button toolTip="Pull current branch from upstream" verticalHuggingPriority="750" id="bVm-VR-ap5">
-                    <rect key="frame" x="936" y="10" width="27" height="27"/>
+                    <rect key="frame" x="857" y="10" width="64" height="27"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
-                    <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" image="icon_action_fetch" imagePosition="only" alignment="center" borderStyle="border" inset="2" id="SFq-Wx-Us0">
+                    <buttonCell key="cell" type="bevel" title="Pull" bezelStyle="regularSquare" alignment="center" borderStyle="border" inset="2" id="SFq-Wx-Us0">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
                     </buttonCell>
@@ -318,9 +318,9 @@ Adjust settings in Show menu</string>
                     </connections>
                 </button>
                 <button toolTip="Push current branch to upstream" verticalHuggingPriority="750" id="NjF-Aj-I7c">
-                    <rect key="frame" x="963" y="10" width="27" height="27"/>
+                    <rect key="frame" x="925" y="10" width="64" height="27"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
-                    <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" image="icon_action_push" imagePosition="only" alignment="center" borderStyle="border" inset="2" id="dhk-Ry-6pb">
+                    <buttonCell key="cell" type="bevel" title="Push" bezelStyle="regularSquare" alignment="center" borderStyle="border" inset="2" id="dhk-Ry-6pb">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
                     </buttonCell>
@@ -685,8 +685,6 @@ DQ
         </window>
     </objects>
     <resources>
-        <image name="icon_action_fetch" width="10" height="14"/>
-        <image name="icon_action_push" width="10" height="14"/>
         <image name="icon_nav_commit" width="15" height="15"/>
         <image name="icon_nav_down" width="16" height="16"/>
         <image name="icon_nav_map" width="15" height="15"/>
