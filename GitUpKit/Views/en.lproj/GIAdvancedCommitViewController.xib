@@ -87,8 +87,6 @@
                                                                     <buttonCell key="cell" type="bevel" title="Discard All…" bezelStyle="regularSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ld8-vc-cxM">
                                                                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                                         <font key="font" metaFont="system"/>
-                                                                        <string key="keyEquivalent">d</string>
-                                                                        <modifierMask key="keyEquivalentModifierMask" option="YES"/>
                                                                     </buttonCell>
                                                                     <connections>
                                                                         <action selector="discardAll:" target="-2" id="yfG-b0-hpM"/>
@@ -100,7 +98,6 @@
                                                                     <buttonCell key="cell" type="bevel" title="Stage All" bezelStyle="regularSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ia5-7P-vyF">
                                                                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                                         <font key="font" metaFont="system"/>
-                                                                        <string key="keyEquivalent">s</string>
                                                                     </buttonCell>
                                                                     <connections>
                                                                         <action selector="stageAll:" target="-2" id="2S1-Ki-xaa"/>
@@ -230,7 +227,6 @@
                                     <buttonCell key="cell" type="check" title="Amend HEAD" bezelStyle="regularSquare" imagePosition="left" inset="2" id="C2R-ad-b2o">
                                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                         <font key="font" metaFont="system"/>
-                                        <string key="keyEquivalent">a</string>
                                     </buttonCell>
                                     <connections>
                                         <action selector="toggleAmend:" target="-2" id="sJx-aM-le4"/>
@@ -266,7 +262,6 @@ DQ
                                     <buttonCell key="cell" type="bevel" title="Unstage All" bezelStyle="regularSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="oqv-6o-u68">
                                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                         <font key="font" metaFont="system"/>
-                                        <string key="keyEquivalent">u</string>
                                     </buttonCell>
                                     <connections>
                                         <action selector="unstageAll:" target="-2" id="gIv-KI-C4E"/>
