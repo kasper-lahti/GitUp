@@ -704,13 +704,6 @@ static NSString* _StringFromRepositoryState(GCRepositoryState state) {
     _pullButton.hidden = NO;
     _pullButton.enabled = [_mapViewController validateUserInterfaceItem:(id)_pullButton];
     NSRect frame = _pullButton.frame;
-    if (isBehind) {
-      _pullButton.image = [NSImage imageNamed:@"icon_action_fetch_new"];
-      _pullButton.frame = NSMakeRect(frame.origin.x + frame.size.width - 44, frame.origin.y, 44, frame.size.height);
-    } else {
-      _pullButton.image = [NSImage imageNamed:@"icon_action_fetch"];
-      _pullButton.frame = NSMakeRect(frame.origin.x + frame.size.width - 27, frame.origin.y, 27, frame.size.height);
-    }
     _pushButton.hidden = NO;
     _pushButton.enabled = [_mapViewController validateUserInterfaceItem:(id)_pushButton];
   }
