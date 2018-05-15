@@ -181,6 +181,17 @@
                             <rect key="frame" x="0.0" y="459" width="1000" height="141"/>
                             <autoresizingMask key="autoresizingMask"/>
                             <subviews>
+                                <box misplaced="YES" boxType="custom" cornerRadius="4" title="Box" id="kKc-or-BMd">
+                                    <rect key="frame" x="0.0" y="0.0" width="1000" height="141"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <view key="contentView" id="gbC-Vb-UoA">
+                                        <rect key="frame" x="1" y="1" width="998" height="139"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </view>
+                                    <color key="borderColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="fillColor" name="windowBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    <font key="titleFont" metaFont="message" size="11"/>
+                                </box>
                                 <scrollView focusRingType="exterior" autohidesScrollers="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" id="JJQ-Rg-cUm">
                                     <rect key="frame" x="10" y="39" width="980" height="92"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
