@@ -505,22 +505,22 @@ Adjust settings in Show menu</string>
             <rect key="frame" x="0.0" y="0.0" width="320" height="32"/>
             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
             <subviews>
-                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="tYR-pC-pUm">
-                    <rect key="frame" x="0.0" y="14" width="320" height="17"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                    <textFieldCell key="cell" lineBreakMode="truncatingMiddle" allowsUndo="NO" sendsActionOnEndEditing="YES" alignment="center" title="&lt;REPOSITORY&gt;" usesSingleLineMode="YES" id="IrL-wK-jB6">
-                        <font key="font" metaFont="system"/>
-                        <color key="textColor" white="0.0" alpha="0.66000000000000003" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                    </textFieldCell>
-                </textField>
-                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="FYB-ck-ZCF">
+                <textField hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="750" id="FYB-ck-ZCF">
                     <rect key="frame" x="0.0" y="2" width="320" height="11"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <textFieldCell key="cell" controlSize="mini" scrollable="YES" lineBreakMode="clipping" allowsUndo="NO" sendsActionOnEndEditing="YES" alignment="center" title="&lt;INFO&gt;" usesSingleLineMode="YES" id="ueS-Kv-b9C">
                         <font key="font" metaFont="miniSystem"/>
                         <color key="textColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" id="tYR-pC-pUm">
+                    <rect key="frame" x="0.0" y="7" width="320" height="17"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <textFieldCell key="cell" lineBreakMode="truncatingMiddle" allowsUndo="NO" sendsActionOnEndEditing="YES" alignment="center" title="&lt;REPOSITORY&gt;" usesSingleLineMode="YES" id="IrL-wK-jB6">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" white="0.0" alpha="0.66000000000000003" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
             </subviews>
